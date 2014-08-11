@@ -1,0 +1,127 @@
+/* Top Scroll */
+.topScroll, .tableOwner {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y:hidden;
+}
+.topScroll {height: 20px; }
+.topScrollInside {
+    min-width:1940px;
+    height: 20px;
+}
+.tableOwner table {
+    overflow: auto;
+    border-top:#dddddd 1px solid;
+    border-bottom:#dddddd 1px solid;
+    table-layout: fixed;
+}
+/* End Top Scroll */
+thead td{
+    background:#f6f6f6;
+    color: #a9a9a9;
+    white-space: nowrap;
+}
+.tdIndent{width: 30px;}
+@media only screen and  (max-width: 1000px) {
+    .tdIndent{width: 10px;}
+}
+.tdCheckox{
+    width: 30px;
+}
+@media only screen and  (min-width: 992px) {
+    .tdCheckox . fixed{padding-left: 30px !important;width: 60px !important;}
+}
+.tdStatus{
+    width: 30px;
+}
+.tdButtons{
+    width: 130px;
+}
+.tdPhoto{
+    width: 40px;
+    position: relative;
+}
+.tdID{
+    width:40px;
+}
+.tdName{
+    width:200px;
+}
+.tdTown{
+    width:140px;
+}
+.tdAddress{
+    width:240px;
+}
+.tdPrice{
+    width:100px;
+}
+/* Статусы */
+.published td{ background-color: #f3f8eb;}
+.published .tdStatus .fa:before{content: "\f058";}
+.published .fa.state{ color: #8ebc3f;}
+
+.moderation td{ background-color: #fefcee;}
+.moderation .fa.state{ color: #f6af40;}
+.moderation .tdStatus .fa:before{content: "\f017";}
+
+.draft td{ background-color: #fff;}
+.draft .fa.state{}
+.draft .tdStatus .fa:before{content: "\f040";}
+
+
+/* END Статусы */
+.square_btn{
+    padding: 6px 9px;
+    min-width: 34px;
+}
+.tdPhoto a.img-thumbnail{
+    width: 34px;
+    height: 34px;
+    padding: 2px;
+    cursor: -webkit-zoom-in;
+    cursor: zoom-in;
+}
+.tdPhoto a.img-thumbnail{
+    position: absolute;
+}
+.tdPhoto a.img-thumbnail:first-of-type{
+    z-index: 99;
+}
+.tdPhoto .fa-search-plus {
+    position: absolute;
+    bottom: 1px;
+    right: 1px;
+    z-index: 1000;
+    color: #fff;
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+img.littlePrev{
+    max-width: 100%;
+    max-height: 100%;
+}
+.tdPrice .price{
+    line-height: 0.6em;
+}
+.tdPrice .note{
+    white-space: nowrap;
+}
+
+/* Fixing 3 first colomns */
+.fixed{
+    position: absolute;
+    z-index: 10001;
+    background-color: inherit !important;
+    width: inherit;
+    min-height: 46px;
+    padding: 8px;
+}
+
+thead td .fixed{
+    min-height: 30px;
+}
+.tdCheckox, .tdStatus, .tdButtons, .tdIndent{
+    padding: 0 !important;
+}
+
+.tableOwner table td{overflow:hidden;}

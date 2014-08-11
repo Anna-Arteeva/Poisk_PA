@@ -17,49 +17,270 @@
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="stylesheet" href="styles/owner_table.css">
+        <link rel="stylesheet" href="styles/pa.css">
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="styles/jquery.fancybox.css" media="screen">
         <!-- endbuild -->
     </head>
     <body>
         <!--[if lt IE 10]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+<div class="topScroll">
+    <div class="topScrollInside"></div>
+</div>
+<div class="tableOwner">
+        <table class="table table-hover">
+            <thead>
+            <tr>
+                <td class="tdIndent"><div class="fixed"></div></td>
+                <td class="tdCheckox">
 
+                    <div class="fixed">
+                    <input type="checkbox">
+                    </div>
+                </td>
+                <td class="tdStatus">
+                    <div class="fixed">
+                    <i class="fa fa-sort"></i>
+                    </div>
+                </td>
+                <td class="tdButtons">
+                    <div class="fixed"></div>
+                </td>
+                <td class="tdPhoto">
+                    Фото
+                </td>
+                <td class="tdID">
+                    <i class="fa fa-sort"></i>
+                    ID
+                </td>
+                <td class="tdName">
+                    <i class="fa fa-sort"></i>
+                    Название
+                </td>
+                <td class="tdTown">
+                    <i class="fa fa-sort"></i>
+                    Город
+                </td>
+                <td class="tdAddress">
+                    <i class="fa fa-sort"></i>
+                    Адрес
+                </td>
+                <td class="tdPrice">
+                    <i class="fa fa-sort"></i>
+                    Стоимость
+                </td>
+                <td class="tdAddress">
+                    <i class="fa fa-sort"></i>
+                    Адрес
+                </td>
+                <td class="tdAddress">
+                    <i class="fa fa-sort"></i>
+                    Адрес
+                </td>
+                <td class="tdAddress">
+                    <i class="fa fa-sort"></i>
+                    Адрес
+                </td>
+                <td class="tdAddress">
+                    <i class="fa fa-sort"></i>
+                    Адрес
+                </td>
+            </tr>
+            </thead>
+<tbody>
+            <tr class="published">
+                <td class="tdIndent"><div class="fixed"></div></td>
+                <td class="tdCheckox">
+                    <div class="fixed">
+                        <input type="checkbox">
+                    </div>
+                </td>
+                <td class="tdStatus">
+                    <div class="fixed">
+                        <i class="fa state"></i>
+                    </div>
+                </td>
+                <td class="tdButtons">
+                    <div class="fixed">
+                        <button type="button" class="btn btn-warning square_btn"><i class="fa fa-edit"></i></button>
+                        <button type="button" class="btn btn-danger square_btn"><i class="fa fa-trash-o"></i></button>
+                        <button type="button" class="btn btn-success square_btn"><i class="fa fa-map-marker bigger"></i></button>
+                    </div>
+                </td>
+                <td class="tdPhoto">
+                    <a href="images/giraphes.jpg" class="fancybox img-thumbnail" rel="gallery" title="Три жирафа в хипстерских очках">
+                        <i class="fa fa-search-plus bigger"></i>
+                        <img src="images/giraphes.jpg" class="littlePrev" />
+                    </a>
+                    <a href="images/elephant.jpg" class="fancybox img-thumbnail" rel="gallery" title="Упавший слон">
+                        <img src="images/elephant.jpg" class="littlePrev" />
+                    </a>
+                    <a href="images/girlwithcat.jpg" class="fancybox img-thumbnail" rel="gallery" title="Девочка, тянущая кота за хвост">
+                        <img src="images/girlwithcat.jpg" class="littlePrev" />
+                    </a>
 
-        <div class="container">
-            <div class="header">
-                <ul class="nav nav-pills pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-                <h3 class="text-muted">2014 08 Search Promoatlas</h3>
-            </div>
+                </td>
+                <td class="tdID">
+                    #234
+                </td>
+                <td class="tdName">
+                    Раскладка полиграфии
+                </td>
+                <td class="tdTown">
+                    Санкт-Петербург
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdPrice">
+                    <span class="price green biggerTwice"> 1.657<i class="fa fa-rub"></i></span>
+                    <span class="note grey smaller">/за еденицу</span>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+            </tr>
 
-            <div class="jumbotron">
-                <h1>'Allo, 'Allo!</h1>
-                <p class="lead">Always a pleasure scaffolding your apps.</p>
-                <p><a class="btn btn-lg btn-success" href="#">Splendid! <span class="glyphicon glyphicon-ok"></span></a></p>
-            </div>
+            <tr class="moderation">
+                <td class="tdIndent"><div class="fixed"></div></td>
+                <td class="tdCheckox">
+                    <div class="fixed">
+                        <input type="checkbox">
+                    </div>
+                </td>
+                <td class="tdStatus">
+                    <div class="fixed">
+                        <i class="fa state"></i>
+                    </div>
+                </td>
+                <td class="tdButtons">
+                    <div class="fixed">
+                        <button type="button" class="btn btn-warning square_btn"><i class="fa fa-edit"></i></button>
+                        <button type="button" class="btn btn-danger square_btn"><i class="fa fa-trash-o"></i></button>
+                        <button type="button" class="btn btn-success square_btn"><i class="fa fa-map-marker bigger"></i></button>
+                    </div>
+                </td>
+                <td class="tdPhoto">
+                    <a href="images/giraphes.jpg" class="fancybox img-thumbnail" rel="gallery" title="Три жирафа в хипстерских очках">
+                        <i class="fa fa-search-plus bigger"></i>
+                        <img src="images/giraphes.jpg" class="littlePrev" />
+                    </a>
+                    <a href="images/elephant.jpg" class="fancybox img-thumbnail" rel="gallery" title="Упавший слон">
+                        <img src="images/elephant.jpg" class="littlePrev" />
+                    </a>
+                    <a href="images/girlwithcat.jpg" class="fancybox img-thumbnail" rel="gallery" title="Девочка, тянущая кота за хвост">
+                        <img src="images/girlwithcat.jpg" class="littlePrev" />
+                    </a>
 
-            <div class="row marketing">
-                <div class="col-lg-6">
-                    <h4>HTML5 Boilerplate</h4>
-                    <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+                </td>
+                <td class="tdID">
+                    #234
+                </td>
+                <td class="tdName">
+                    Раскладка полиграфии
+                </td>
+                <td class="tdTown">
+                    Санкт-Петербург
+                </td>
 
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdPrice">
+                    <span class="price green biggerTwice"> 1.657<i class="fa fa-rub"></i></span>
+                    <span class="note grey smaller">/за еденицу</span>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+            </tr>
 
+            <tr class="draft">
+                <td class="tdIndent"><div class="fixed"></div></td>
+                <td class="tdCheckox">
+                    <div class="fixed">
+                        <input type="checkbox">
+                    </div>
+                </td>
+                <td class="tdStatus">
+                    <div class="fixed">
+                        <i class="fa state"></i>
+                    </div>
+                </td>
+                <td class="tdButtons">
+                    <div class="fixed">
+                        <button type="button" class="btn btn-warning square_btn"><i class="fa fa-edit"></i></button>
+                        <button type="button" class="btn btn-danger square_btn"><i class="fa fa-trash-o"></i></button>
+                        <button type="button" class="btn btn-success square_btn"><i class="fa fa-map-marker bigger"></i></button>
+                    </div>
+                </td>
+                <td class="tdPhoto">
+                    <a href="images/giraphes.jpg" class="fancybox img-thumbnail" rel="gallery" title="Три жирафа в хипстерских очках">
+                        <i class="fa fa-search-plus bigger"></i>
+                        <img src="images/giraphes.jpg" class="littlePrev" />
+                    </a>
+                    <a href="images/elephant.jpg" class="fancybox img-thumbnail" rel="gallery" title="Упавший слон">
+                        <img src="images/elephant.jpg" class="littlePrev" />
+                    </a>
+                    <a href="images/girlwithcat.jpg" class="fancybox img-thumbnail" rel="gallery" title="Девочка, тянущая кота за хвост">
+                        <img src="images/girlwithcat.jpg" class="littlePrev" />
+                    </a>
 
-                    <h4>Bootstrap</h4>
-                    <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+                </td>
+                <td class="tdID">
+                    #234
+                </td>
+                <td class="tdName">
+                    Раскладка полиграфии
+                </td>
+                <td class="tdTown">
+                    Санкт-Петербург
+                </td>
 
-
-                </div>
-            </div>
-
-            <div class="footer">
-                <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
-            </div>
-
-        </div>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdPrice">
+                    <span class="price green biggerTwice"> 1.657<i class="fa fa-rub"></i></span>
+                    <span class="note grey smaller">/за еденицу</span>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+                <td class="tdAddress">
+                    м. Василеостровская,7-я линия, 45ресторан “Ёлки-Палки”<a href="#"> <i class="fa fa-map-marker green"></i></a>
+                </td>
+            </tr>
+</tbody>
+        </table>
+</div>
 
 
         <!-- build:js scripts/vendor.js -->
@@ -95,6 +316,8 @@
 
         <!-- build:js({app,.tmp}) scripts/main.js -->
         <script src="scripts/main.js"></script>
+        <script src="scripts/owner_table.js"></script>
+        <script src="scripts/jquery.fancybox.js"></script>
         <!-- endbuild -->
 </body>
 </html>
