@@ -2,12 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="466348cf-7e64-4a52-82c2-711a6081197a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/test/spec/test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Эскизы/Search_Promoatlas.ai" afterPath="$PROJECT_DIR$/Эскизы/Search_Promoatlas.ai" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="2014 08 Search.Promoatlas.iws" />
@@ -197,12 +191,18 @@
       <created>1407343307344</created>
       <updated>1407343307344</updated>
     </task>
+    <task id="LOCAL-00001" summary="Remove test">
+      <created>1407865691871</created>
+      <updated>1407865691871</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="22" width="1423" height="806" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -236,9 +236,12 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="Remove test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
